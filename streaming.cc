@@ -6,7 +6,7 @@
 #include "perfetto.h"
 #include <android/log.h>
 
-auto char *tag = "PERFEETO_STREAMING";
+char *tag = "PERFEETO_STREAMING";
 const int  flush_period = 2000;
 
 
