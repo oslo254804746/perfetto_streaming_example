@@ -26,7 +26,7 @@ int main(int argc, char* argv[]) {
                     std::string string_port = optarg;
                     port = std::stoi(string_port);
                 }catch(...){
-                    LOGE("解析 port 发生异常");
+                    LOGE("Read Port ERROR");
                 }
                 break;
             default:
