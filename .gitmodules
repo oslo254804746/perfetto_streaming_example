@@ -1,0 +1,4 @@
+[submodule "perfetto"]
+	path = perfetto
+	url = https://github.com/google/perfetto.git
+	branch = releases/v43.x
